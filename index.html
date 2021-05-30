@@ -19,12 +19,17 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <h1>Berlin</h1>
+          <h1 id="city"></h1>
           <div class="row">
             <div class="col-6">
               <ul>
-                <li>Friday 05:00 , Clear</li>
-                <li>Humidity, Wind</li>
+                <li>
+                  <span id="date"></span> , <span id="description"></span>
+                </li>
+
+                <li>
+                  <span id="humidity"></span>% , <span id="wind"></span> km/h
+                </li>
               </ul>
             </div>
             <div class="col-6">
@@ -33,7 +38,7 @@
                 alt="Rainy"
                 class="img"
               />
-              <strong class="degree"> 17</strong>
+              <strong class="degree" id="temperature"> </strong>
               <small class="units">°C| °F</small>
             </div>
           </div>

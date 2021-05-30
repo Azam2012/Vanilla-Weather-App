@@ -16,6 +16,9 @@ li {
   line-height: 28px;
   display: block;
 }
+li.first-letter {
+  text-transform: capitalize;
+}
 .col-6 {
   color: #af329e;
   font-family: var;
