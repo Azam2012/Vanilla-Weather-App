@@ -56,3 +56,12 @@ li.first-letter {
   border: 2px solid #ad329e;
   border-radius: 5px;
 }
+
+.weather-temperature .active {
+  color: #af329e;
+  cursor: default;
+  text-decoration: none;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
