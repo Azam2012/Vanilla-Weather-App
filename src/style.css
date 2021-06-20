@@ -1,3 +1,16 @@
+body {
+  background-color: transparent;
+  margin: 20px 100px 30px;
+}
+input {
+  width: 400px;
+  height: 55px;
+  border: solid red;
+  background-color: #f6dfeb;
+  border-radius: 3px;
+  font-size: 1.5em;
+}
+
 h1 {
   color: #693c72;
   font-size: 24px;
@@ -64,4 +77,18 @@ li.first-letter {
 }
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 30px;
+  text-align: center;
+}
+.weahter-forecast-date {
+  font-size: 13px;
+  color: #42a5f5;
+}
+.weather-forecast-temperature {
+  color: #93329e;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.8;
 }
